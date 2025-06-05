@@ -255,6 +255,7 @@ fig.show()
 ```
 
 Insight: This interactive 3D plot allows you to explore survival patterns more intuitively across features.
+
 👤 Visualizing Titanic Passenger Layout (Creative Visualization)
 While there is no official floor map of Titanic in the dataset, we can creatively illustrate an approximate layout using icons or abstract distribution plots:
 import plotly.graph_objects as go
@@ -272,6 +273,7 @@ fig = go.Figure(data=[
 ])
 fig.update_layout(barmode='stack', title='Total Passengers by Gender and Survival Status')
 fig.show()
+
 Insight: This bar chart presents a quick "snapshot" of how the Titanic's demographic fared in terms of survival, offering a pseudo-layout of male and female survival representation.
 
 ✅ Summary of EDA Insights
